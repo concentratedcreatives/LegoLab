@@ -2,16 +2,16 @@
 
 ## Table of Contents
 
-- [Title](#title)
-- [Description](#description)
-- [Technologies Used](#technologiesUsed)
-- [Screenshots](#screenshots)
-- [Deployed Application](#deployedApplication)
-- [Github Repository](#githubRepository)
-- [Concept](#cpncept)
-- [Process](#process)
-- [Future Development](#futureDevelopment)
-- [Contact](#Contact)
+- [Title](#title-)
+- [Description](#description-)
+- [Technologies Used](#technologies-used-)
+- [Screenshots](#screenshots-)
+- [Deployed Application](#deployed-application-)
+- [Github Repository](#github-repository-)
+- [Concept](#concept-)
+- [Process](#process-)
+- [Future Development](#future-development-)
+- [Contact](#contact-)
 
 ## Description
 LegoLab is a MERN stack single-page application developed as Project 3 for the UNC Coding Bootcamp. It is a platform where users can explore and purchase Lego sets. The application utilizes the MERN stack (MongoDB, Express.js, React, Node.js) along with GraphQL for data management and authentication using JWT. 
