@@ -1,23 +1,13 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-
-const HomePage = () => {
+import CategoryMenu from '../components/CategoryMenu';
+import ProductCatalog from '../components/ProductCatalog';
+const Home = () => {
     return (
         <div>
-            <h2>Welcome to LEGO Lab</h2>
-            <div>
-                <Link to="/legolab">
-                    <button>LEGO Lab</button>
-                </Link>
-                <Link to="/categories">
-                    <button>Categories</button>
-                </Link>
-                <Link to="/cart">
-                    <button>Cart</button>
-                </Link>
-            </div>
+            <h2>Welcome to LEGOLab</h2>
+                <CategoryMenu />
+                <ProductCatalog />
         </div>
     );
 };
 
-export default HomePage;
+export default Home;
