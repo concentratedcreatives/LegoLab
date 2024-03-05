@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { useQuery } from '@apollo/client';
 import { useStoreContext } from '../../utils/GlobalState';
 import {
@@ -43,24 +44,28 @@ function CategoryMenu() {
 
   return (
     <div>
-      <h2>Choose a Brand:</h2>
+      <h2>Search a Brand:</h2>
       {categories.map((item) => (
+        <Link to={`/catagory/${item._id}`}>
+          <button
+            key={item._id}
+            onClick={() => {
+              handleClick(item._id);
+            }}
+          >
+            {item.name}
+          </button>
+        </Link>
+      ))}
+      <Link to='/catagory/65e6636cd81cc86a20fdd589'>
         <button
-          key={item._id}
           onClick={() => {
-            handleClick(item._id);
+            handleClick('');
           }}
         >
-          {item.name}
+          All
         </button>
-      ))}
-      <button
-        onClick={() => {
-          handleClick('');
-        }}
-      >
-        All
-      </button>
+      </Link>
     </div>
   );
 }
