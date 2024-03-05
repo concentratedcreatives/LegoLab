@@ -1,13 +1,27 @@
+import { useState } from 'react'; // Import useState hook
+
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
 import Cart from "../Cart";
 
 function Nav() {
+  // State variable to track dark mode
+  const [darkMode, setDarkMode] = useState(false);
+
+  function toggleDarkMode() {
+    // Toggle dark mode state
+    setDarkMode(!darkMode);
+    // Toggle dark-mode class on the body element
+    document.body.classList.toggle('dark-mode');
+  }
 
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
         <ul className="flex-row">
+          <li className="mx-1">
+            <Cart />
+          </li>
           <li className="mx-1">
             <Link to="/orderHistory">
               Order History
@@ -50,7 +64,8 @@ function Nav() {
 
       <nav>
         {showNavigation()}
-        <Cart />
+        {/* Button to toggle dark mode */}
+        <button onClick={toggleDarkMode}>{darkMode ? 'Light Mode' : 'Dark Mode'}</button>
       </nav>
     </header>
   );
