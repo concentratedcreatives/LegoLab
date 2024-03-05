@@ -46,7 +46,7 @@ function ProductCatalog() {
     <div className="my-2">
       <h2>The LEGO bricks you're looking for!</h2>
       {state.products.length ? (
-        <div className="flex-row">
+        <div className="flex-container"> {/* Ensure this div has the class flex-container */}
           {filterProducts().map((product) => (
             <Product
               key={product._id}
