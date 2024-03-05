@@ -105,7 +105,6 @@ function ProductDetail() {
           />
         </div>
       ) : null}
-      {loading ? <img src={spinner} alt="loading" /> : null}
     </>
   );
 }
