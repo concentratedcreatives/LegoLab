@@ -9,6 +9,9 @@ import Login from './Pages/Login.jsx';
 import Signup from './Pages/Signup.jsx';
 import ProductDetail from './Pages/ProductDetails.jsx';
 import NoMatch from './Pages/NoMatch.jsx';
+import CatagoryPage from './Pages/CatagoryPage.jsx';
+import OrderHistory from './Pages/OrderHistory.jsx';
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -28,8 +31,16 @@ const router = createBrowserRouter([
         element: <Signup />
       },
       {
+        path: '/catagory/:id',
+        element: <CatagoryPage />
+      },
+      {
         path: '/products/:id',
         element: <ProductDetail />
+      },
+      {
+        path:'/orderHistory',
+        element: <OrderHistory />
       }
     ]
   }
