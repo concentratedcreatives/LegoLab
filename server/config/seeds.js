@@ -23,7 +23,7 @@ db.once('open', async () => {
             name: 'Avengers Tower',
             description:
                 'Capture the heroic style and scale of the most iconic building in the Avengers Universe with the 5,201-piece Avengers Tower. Standing over 35.5 in. (90 cm) tall, this monumental set is more than just an impressive display piece. Its filled with ways to replay Infinity Saga battles alongside an all-star cast of 31 figures.',
-            image: '/images/avengers-tower.jpg',
+            image: 'avengers-tower.jpg',
             category: categories[1]._id,
             price: 499.99,
             quantity: 50
