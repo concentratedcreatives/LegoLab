@@ -47,23 +47,24 @@ function CategoryMenu() {
       <h2>Search a Brand:</h2>
       {categories.map((item) => (
         <Link to={`/catagory/${item._id}`}>
-          <button
+          <button>
+            <img src={`/images/${item.image}`}
+            alt="Brand logo"
             key={item._id}
             onClick={() => {
               handleClick(item._id);
             }}
-          >
-            {item.name}
-          </button>
+          /></button>
         </Link>
       ))}
       <Link to='/catagory/65e6636cd81cc86a20fdd589'>
-        <button
+        <button>
+          <img src='/images/alllego.jpg'
+          alt="Other category"
           onClick={() => {
             handleClick('');
           }}
-        >
-          All
+        />
         </button>
       </Link>
     </div>
