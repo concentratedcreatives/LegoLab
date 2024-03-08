@@ -49,7 +49,7 @@ function CategoryMenu() {
         <Link to={`/catagory/${item._id}`}>
           <button>
             <img src={`/images/${item.image}`}
-            alt="Brand logo"
+            alt={item.name}
             key={item._id}
             onClick={() => {
               handleClick(item._id);
@@ -59,8 +59,8 @@ function CategoryMenu() {
       ))}
       <Link to='/catagory/65e6636cd81cc86a20fdd589'>
         <button>
-          <img src='/images/alllego.jpg'
-          alt="Other category"
+          <img src='/images/all.png'
+          alt="All products"
           onClick={() => {
             handleClick('');
           }}

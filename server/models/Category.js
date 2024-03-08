@@ -8,7 +8,7 @@ const categorySchema = new Schema({
         required: true,
         trim: true
     },
-    Image: {
+    image: {
         type: String,
     }
 });
