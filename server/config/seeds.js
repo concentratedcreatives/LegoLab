@@ -78,7 +78,7 @@ db.once('open', async () => {
             category: categories[5]._id,
             description:
                 'This LEGO replica is loaded with retro design details and fun features, including a 4-way joystick and an illuminating coin slot. Turn the handle to activate a mechanical maze that simulates the classic chase between your favorite characters or open the back panel to view the mechanical elements. There’s even a 1980s arcade scene to build, complete with a gaming minifigure and a display case with rotatable PAC-MAN, BLINKY and CLYDE figures.',
-            image: 'PAC-MAN Arcade.webp',
+            image: 'PAC-MAN Arcade.jpg',
             price: 269.99,
             quantity: 100
         },
