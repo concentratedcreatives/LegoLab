@@ -57,7 +57,7 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/">
-          <img src='/images/sitelogo.jpg' alt="LegoLab"/>
+          <img src='/images/sitelogo.jpg' alt="LegoLab" className="logo"/>
         </Link>
       </h1>
 
