@@ -13,23 +13,23 @@ header {
 }
 
 .dark-mode button {
-  background-color: #646cff;
+  background-color: #e04f2a;
   color: #fff;
 }
 
 .dark-mode button:hover {
-  background-color: #535bf2;
+  background-color: #bdc00a;
 }
 
 /* Add light mode styles */
 .light-mode {
   background-color: #ffffffbf;
-  color: #213547;
+  color: #0f2335;
 }
 
 .light-mode button {
   background-color: #f9f9f9;
-  color: #646cff;
+  color: #090a1d;
 }
 
 .light-mode button:hover {
@@ -48,7 +48,7 @@ li {
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #fa3d0d;
   text-decoration: none; /* Remove underline */
 }
 
@@ -75,13 +75,13 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a; /* Dark background color */
-  color: #ffffff; /* Text color */
+  color: #020202; /* Text color */
   cursor: pointer;
   transition: background-color 0.25s, color 0.25s; /* Transition for hover effect */
 }
 
 button:hover {
-  background-color: #646cff; /* Darker background color on hover */
+  background-color: #e04f2a; /* Darker background color on hover */
   color: #ffffff; /* Text color on hover */
 }
 
@@ -98,7 +98,7 @@ button:focus-visible {
   }
 
   a:hover {
-    color: #747bff;
+    color: #e04f2a;
   }
 
   button {
@@ -141,7 +141,7 @@ button:focus-visible {
 .card button {
   width: 100%; /* Make button fill the width of the card */
   margin-top: 0.5rem; /* Add margin to separate button from other content */
-  background-color: #646cff; /* Set button background color */
+  background-color: #e04f2a; /* Set button background color */
   color: #fff; /* Set button text color */
   border: none; /* Remove border */
   border-radius: 4px; /* Add border radius for rounded corners */
@@ -151,5 +151,5 @@ button:focus-visible {
 }
 
 .card button:hover {
-  background-color: #535bf2; /* Darken button background color on hover */
+  background-color: #e04f2a; /* Darken button background color on hover */
 }

@@ -10,27 +10,27 @@ db.once('open', async () => {
     const categories = await Category.insertMany([
         {
             name: 'Star Wars',
-            image: ''
+            image: 'starwars.png'
         },
         {
             name: 'Marvel',
-            image: ''
+            image: 'marvel.png'
         },
         {
             name: 'Harry Potter',
-            image: ''
+            image: 'hp.png'
         },
         {
             name: 'DC',
-            image: ''
+            image: 'dc.png'
         },
         {
             name: 'Dune',
-            image: ''
+            image: 'dune.png'
         },
         {
             name: 'Other',
-            image: 'otherlego.jpg'
+            image: 'other.png'
         }
     ]);
 
