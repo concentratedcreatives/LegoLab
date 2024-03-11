@@ -82,7 +82,7 @@ const Cart = () => {
             <CartItem key={item._id} item={item} />
           ))}
 
-          <div className="flex-row space-between">
+          <div className="flex-row space-between text-color">
             <strong>Total: ${calculateTotal()}</strong>
 
             {Auth.loggedIn() ? (
@@ -93,7 +93,7 @@ const Cart = () => {
           </div>
         </div>
       ) : (
-        <h3>
+        <h3 className='text-color'>
           Cart is empty
         </h3>
       )}

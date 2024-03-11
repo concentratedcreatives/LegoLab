@@ -1,11 +1,11 @@
 .cart {
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     min-width: 20%;
     max-width: 30%;
     max-height: 60%;
-    background-color: var(--light);
+    background-color: rgb(212, 32, 32);
     overflow: auto;
     padding: .5rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
@@ -17,6 +17,7 @@
     border-bottom: 1px solid var(--dark);
     padding-bottom: .5rem;
     margin: 1rem 0;
+    color: yellow;
 }
 
 .cart .close {
@@ -24,7 +25,7 @@
     top: .5rem;
     right: .5rem;
     cursor: pointer;
-    color: var(--tertiary);
+    color: yellowgreen;
 }
 
 .cart .close:hover {
@@ -34,7 +35,7 @@
 .cart-closed {
     position: fixed;
     top: 2%;
-    right: 1%;
+    left: 1%;
     font-size: 2rem;
     cursor: pointer;
     background-color: var(--secondary);

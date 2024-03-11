@@ -1,6 +1,7 @@
 import { useStoreContext } from "../../utils/GlobalState";
 import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
 import { idbPromise } from "../../utils/helpers";
+import './style.css'
 
 const CartItem = ({ item }) => {
 
@@ -44,7 +45,7 @@ const CartItem = ({ item }) => {
         />
       </div>
       <div>
-        <div>{item.name}, ${item.price}</div>
+        <div className="text-color">{item.name}, ${item.price}</div>
         <div>
           <span>Qty:</span>
           <input

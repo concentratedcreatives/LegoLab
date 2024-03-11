@@ -50,14 +50,15 @@ h1 {
 }
 
 button {
-  height: 100px; /* Set the height of each button */
-  width: 100px; /* Set the width of each button */
+  height: 40px; /* Set the height of each button */
+  width: 75px; /* Set the width of each button */
   margin: 10px; /* Add margin to create space between buttons */
   padding: 0; /* Remove default padding */
   border: none; /* Remove default border */
-  background-color: transparent; /* Set background color to transparent */
+  background-color: yellow; /* Set background color to transparent */
   cursor: pointer; /* Set cursor to pointer */
   position: relative; /* Position relative for absolute positioning of image */
+  border-radius: 35px;
 }
 
 button img {
