@@ -190,3 +190,29 @@ button:focus-visible {
   transition: opacity 0.5s ease;
   z-index: -1; /* Send it to the background */
 }
+
+/* Adjustments for small screens (mobile devices) */
+@media only screen and (max-width: 600px) {
+  /* Header */
+  header {
+    height: 80px; /* Reduce header height */
+  }
+
+  /* CategoryMenu */
+  .CategoryMenu button {
+    width: 150px; /* Adjust button width */
+    height: 100px; /* Adjust button height */
+    font-size: 1em; /* Adjust font size */
+  }
+
+  /* Card */
+  .card {
+    width: 90%; /* Adjust card width */
+    margin-bottom: 0.5rem; /* Reduce margin between cards */
+  }
+
+  /* Fading image */
+  .fading-image {
+    display: none; /* Hide fading image on small screens */
+  }
+}
