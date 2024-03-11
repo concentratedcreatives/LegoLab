@@ -1,3 +1,9 @@
 .text-color {
     color: yellow;
 }
+
+@media screen and (max-width: 768px){
+    .text-color {
+        color: black;
+    }
+}

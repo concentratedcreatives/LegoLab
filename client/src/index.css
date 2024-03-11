@@ -132,9 +132,12 @@ button:focus-visible {
 }
 
 .flex-container {
+  height: fit-content;
+  width: auto;
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap to the next line */
-  justify-content: space-between; /* Distribute items evenly along the main axis */
+  justify-content: center;
+  padding: 25px;
 }
 
 .card {
